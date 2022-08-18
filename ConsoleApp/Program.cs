@@ -7,10 +7,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var brackets = "(){}[][][]()";
+            var brackets = "(){}[][][])";
             ValidationBracket validationBracket = new ValidationBracket();
 
-            var result = validationBracket.ValidationBraces(brackets);
+            var result = validationBracket.ValidationBrackes(brackets);
 
             Console.WriteLine($"В \"{brackets}\" имеются все закрывающиеся скобки: {result}");
         }

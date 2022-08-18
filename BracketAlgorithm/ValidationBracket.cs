@@ -13,20 +13,20 @@ namespace BracketAlgorithm
         /// </summary>
         /// <param name="lineBrackets">Строчка с скобками</param>
         /// <returns></returns>
-        public bool ValidationBraces(string lineBrackets)
+        public bool ValidationBrackes(string lineBrackets)
         {
             var bracketStack = new Stack<Bracket>();
             var bracketFactory = new BracketFactory();
 
-            foreach (var separatorChar in lineBrackets)
+            foreach (var bracketChar in lineBrackets)
             {
-                var bracket = bracketFactory.CreateBracket(separatorChar);
+                var bracket = bracketFactory.CreateBracket(bracketChar);
 
                 if (bracket == null)
                 {
                     var openBracket = bracketStack.Peek();
 
-                    if (!openBracket.IsClosingBracket(separatorChar))
+                    if (!openBracket.IsClosingBracket(bracketChar))
                         return false;
 
                     bracketStack.Pop();
@@ -35,7 +35,13 @@ namespace BracketAlgorithm
                 {
                     bracketStack.Push(bracket);
                 }
+
+                if (bracketStack.Count == 0)
+                    return false;
             }
+
+            if (bracketStack.Count > 0)
+                return false;
 
             return true;
         }
