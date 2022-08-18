@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracketAlgorithm", "BracketAlgorithm\BracketAlgorithm.csproj", "{FC0CBD9F-A9F0-47C2-906C-63C6FACC37AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{DAC271FF-878A-4806-9C5D-1CBFDBB0ED37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0CBD9F-A9F0-47C2-906C-63C6FACC37AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0CBD9F-A9F0-47C2-906C-63C6FACC37AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0CBD9F-A9F0-47C2-906C-63C6FACC37AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0CBD9F-A9F0-47C2-906C-63C6FACC37AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC271FF-878A-4806-9C5D-1CBFDBB0ED37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC271FF-878A-4806-9C5D-1CBFDBB0ED37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC271FF-878A-4806-9C5D-1CBFDBB0ED37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC271FF-878A-4806-9C5D-1CBFDBB0ED37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {814BA73B-EE54-4B36-9D89-1B2588BFA4FA}
+	EndGlobalSection
+EndGlobal
